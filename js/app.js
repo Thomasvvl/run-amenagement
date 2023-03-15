@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(".btnTop").toggleClass("active",$(this).scrollTop()>300)});$(".btnTop").click(function(){$("html,body").animate({scrollTop:0},500)})})
